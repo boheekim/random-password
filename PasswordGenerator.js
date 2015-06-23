@@ -6,6 +6,6 @@ var passwordGenerator = function(length){
 		var generator = characters[Math.floor(Math.random() * characters.length)];
 		newPassword.push(generator);
 	}
-	console.log(newPassword.join(''));
+	return (newPassword.join(''));
 }
 	
